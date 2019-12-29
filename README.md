@@ -13,5 +13,5 @@
 
 ### Dodatne informacije
 
-- Biblioteka je header-only (potrebno je samo da uključite `visitor_pattern.hpp`
+- Biblioteka je header-only (potrebno je samo da uključite `visitor_pattern.hpp`)
 - Postoje komentari u source kodu koji možda mogu biti od pomoći.

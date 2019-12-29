@@ -11,7 +11,7 @@ class Visitor : public Visitor<Base,Ds...> {
     template<typename IDerived, typename IBase, typename IBaseH, typename... IDs>
     friend class InheritVisitable;
 
-    protected:
+protected:
     using Visitor<Base,Ds...>::visit;
 
     virtual void visit(Derived &visitable) { 
