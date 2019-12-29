@@ -1,5 +1,7 @@
 ## Generički Visitor Pattern za C++
 
+- Pre nego što počnete da koristite biblioteku, najbolje je da pogledate primer `main.cpp`
+
 ### Zavisnosti
 
 - Kompajler sa podrškom za standard `c++17` (poželjno `gcc/clang`)
