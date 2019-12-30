@@ -1,6 +1,7 @@
 ## Generički Visitor Pattern za C++
 
 - Pre nego što počnete da koristite biblioteku, najbolje je da pogledate primer `main.cpp`
+- Nešto primitivnija verzija koja može biti korisna za lakšu analizu koda se nalazi u `basic_example` direktorijumu.
 
 ### Zavisnosti
 
