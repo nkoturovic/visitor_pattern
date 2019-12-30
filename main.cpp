@@ -22,7 +22,7 @@ using MyConstVisitorI = Visitor<ConstTypeHierarchy>;
 template <class ResultType>
 using MyVisitorWithResultI = VisitorWithResult<MyVisitorI, ResultType>;
 
-/* 4) Vizitor sa rezultatom(retval) (Ref verzija) */
+/* 4) Vizitor sa rezultatom(retval) (ConstRef verzija) */
 template <class ResultType>
 using MyConstVisitorWithResultI = VisitorWithResult<MyConstVisitorI, ResultType>;
 
@@ -57,6 +57,7 @@ int main()
     print(d1);
     print(d2);
 
+    /* Posetilac (ConstRef) - ne menja stanje objekta */
     /* 'otherwise' se uvek mora implementirati (cak i ako sve ostale navedemo) */
     class ToStringVisitor : public MyConstVisitorWithResultI<std::string> {
         void visit(const D1 &) override { result("d1"); }
